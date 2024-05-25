@@ -1,0 +1,66 @@
+<style>
+container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .textbox {
+            background-color: #f4f4f4;
+            padding: 0.5px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 0 auto;
+           border: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            font-weight: bold;
+        }
+	
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px 8px;
+            border: none;
+          width: 100px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+input[type="checkbox"] {
+            color: white;
+            padding: 0px 0px;
+            margin-left:-41px;
+	margin-right:-40px;
+          width: 100px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .error {
+            color: red;
+            margin-top: 5px;
+        }
+    </style>
